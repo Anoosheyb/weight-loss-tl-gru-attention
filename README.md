@@ -1,16 +1,48 @@
-# weight-loss-tl-gru-attention
- Code for personalized early prediction of weight loss with TL GRU-Attention
- # Personalized Early Prediction of Weight Loss
+# Personalized Early Prediction of Weight Loss Success using Transfer Learning and Explainable GRU-Attention
 
-This repository contains the code used in the paper:
+This repository contains the implementation for the research paper:
 
 **"Personalized Early Prediction of Weight Loss Success Using Transfer Learning and Explainable GRU-Attention Networks"**
 
-Main features:
-- Transfer Learning from CALERIE dataset to an Iranian cohort
-- GRU-Attention architecture for longitudinal weight data
-- Early prediction scenario (W1–W2 + daily features)
-- Stability analysis and AUROC-based evaluation
+---
 
-> Note: Original clinical datasets are not included due to privacy and licensing restrictions.
+## 🚀 Objective
+
+To build an early clinical prediction model that identifies whether a patient will successfully lose weight using:
+
+✓ Transfer Learning (cross-cohort)  
+✓ Attention-based Deep Learning  
+✓ Explainable AI (SHAP + Attention Maps)
+
+---
+
+## 🧠 Methodology Overview
+
+The pipeline consists of:
+
+1. **Pretraining**
+   - Dataset: **CALERIE clinical weight-loss dataset**
+   - Architecture: **Bidirectional GRU + Self-Attention**
+
+2. **Fine-tuning**
+   - Dataset: **Independent Iranian cohort**
+   - Domain Adaptation for population shift
+
+3. **Explainability**
+   - SHAP values for feature contribution
+   - Attention maps for temporal interpretation
+
+---
+
+## 📈 Key Results
+
+| Model                                | AUC     | Notes                               |
+|-------------------------------------|---------|-------------------------------------|
+| GRU-Attention (local baseline)      | 0.953   | No transfer learning                |
+| TL-GRU-Attention (proposed)         | 0.991   | ↓ variability (6× improvement)      |
+| Early Prediction (W1–W2 features)   | 0.969   | Supports proactive intervention     |
+
+---
+
+## 📂 Repository Structure
 
