@@ -44,12 +44,24 @@ The pipeline consists of:
 
 ---
 ## 📈 Early Prediction Performance (Iran Cohort)
-![Early AUROC Trends](figures/early_auroc_trend.png)
+![Early AUROC Trends](figure3_early_auroc_trends.png)
 
 ## 🔍 Attention Heatmap (Explainability)
-![Attention Heatmap IRAN](figures/attention_heatmap_iran.png)
+![Attention Heatmap IRAN](figure4_attention_heatmap_iran.png)
 
 
 
 ## 📂 Repository Structure
+├── weight_loss_TL_GRU_Attention_main.ipynb   # Main training & evaluation notebook
+├── README.md                                 # Project documentation
+├── Requirement.txt                            # Required packages
+├── license                                     # MIT License
+├── figure3_early_auroc_trends.png             # Performance figure
+└── figure4_attention_heatmap_iran.png          # Explainability figure
+## 🔬 Contact
+For collaboration or research inquiries:
+**Anoosheh Yazdanbakhsh**  
+📧 ayazdan59@gmail.com  
+Paris, France
+
 
