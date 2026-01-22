@@ -43,6 +43,13 @@ The pipeline consists of:
 | Early Prediction (W1–W2 features)   | 0.969   | Supports proactive intervention     |
 
 ---
+## 📈 Early Prediction Performance (Iran Cohort)
+![Early AUROC Trends](figures/early_auroc_trend.png)
+
+## 🔍 Attention Heatmap (Explainability)
+![Attention Heatmap IRAN](figures/attention_heatmap_iran.png)
+
+
 
 ## 📂 Repository Structure
 
